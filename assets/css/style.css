@@ -350,12 +350,12 @@ td img {
   vertical-align: middle;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.rating{
- font-weight: bold;
+.rating {
+  font-weight: bold;
 }
 
 .footer {
@@ -382,4 +382,58 @@ td img {
 
 .footer p {
   padding: 0 0 10px 0;
+}
+
+/* CSS Mobile */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .header {
+    background-color: #257965;
+    min-width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .site_content {
+    width: 100%;
+  }
+
+  .menubar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .site_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar_container {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+  ul.menu {
+    float: none;
+  }
+
+  ul.menu li {
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+
+  .logo h1 {
+    font-size: normal 235% "century gothic", arial, sans-serif;
+  }
+  .logo h2 {
+    font-size: normal 100% "century gothic", arial, sans-serif;
+    color:white;
+  }
 }
