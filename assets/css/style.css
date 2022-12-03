@@ -494,4 +494,40 @@ td img {
     font-size: 95%;
     text-align: left;
   }
+
+  /*show page*/
+
+  iframe {
+    width: 88%;
+    height: 100%;
+  }
+
+  .description_film {
+    width: 90%;
+    text-align: left;
+    margin-left: 2%;
+  }
+
+  .description_film img {
+    float: none;
+    width: 73%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 11%;
+    margin-bottom: 7%;
+  }
+
+  .reviews {
+    text-align: left;
+    width: 96%;
+  }
+
+  .send input[type='text']{
+    width: 80%;
+  }
+
+  .send textarea{
+    width: 85%;
+  }
 }
