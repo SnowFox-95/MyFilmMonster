@@ -285,13 +285,14 @@ textarea {
   border-radius: 5px;
 }
 
-.contacts_send input[type="text"], textarea {
+.contacts_send input[type="text"],
+textarea {
   border: solid 1px #c3c3c3;
   margin-bottom: 2%;
   width: 600px;
 }
 
-.contacts_send textarea{
+.contacts_send textarea {
   width: 615px;
   height: 200px;
   margin-bottom: 3%;
@@ -302,6 +303,36 @@ textarea {
   padding: 3%;
   color: #fff;
   border-radius: 5px;
+}
+
+.info_film {
+  margin-bottom: 5%;
+  background-color: #f9f9f9;
+  padding: 5%;
+  height: 270px;
+}
+
+.info_film img {
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
+  width: 25%;
+}
+
+.button {
+  background-color: #7268ad;
+  padding: 2%;
+  color: #fff;
+  border-radius: 5px;
+  float: right;
+  margin-top: 5%;
+  clear: both;
+  font-size: 0.8em;
+}
+
+.button a {
+  color: #fff;
 }
 
 .footer {
