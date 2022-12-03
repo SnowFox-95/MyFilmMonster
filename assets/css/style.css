@@ -335,6 +335,29 @@ textarea {
   color: #fff;
 }
 
+table {
+  width: 100%;
+  border: solid 1px #f4f4f4;
+}
+
+td {
+  padding: 2%;
+  border: solid 1px #f4f4f4;
+}
+
+td img {
+  width: 60px;
+  vertical-align: middle;
+}
+
+.center{
+  text-align: center;
+}
+
+.rating{
+ font-weight: bold;
+}
+
 .footer {
   width: 100%;
   height: 100px;
