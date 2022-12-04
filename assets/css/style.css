@@ -14,3 +14,22 @@ a:hover {
   font-size: 90%;
   letter-spacing: 3px;
 }
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pillse > li.active > a:hover {
+  color: #fff;
+  background-color: #346270;
+}
+
+.nav-pills > li > a {
+  color: #fff;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #346270;
+}
+
+.navbar-inverse{
+    padding: 1%;
+}
