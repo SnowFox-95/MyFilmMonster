@@ -30,6 +30,16 @@ a:hover {
   background-color: #346270;
 }
 
-.navbar-inverse{
-    padding: 1%;
+.navbar-inverse {
+  padding: 1%;
+}
+
+@media (max-width: 767px) {
+  .nav-pills > li {
+    float: none;
+  }
+  
+  .nav-pills {
+    text-align: center;
+  }
 }
