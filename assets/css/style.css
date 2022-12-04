@@ -3,7 +3,9 @@ a:hover {
   color: #f0ad4e;
   text-decoration: none;
 }
-
+.navbar{
+    background-color:darkslateblue;
+}
 .header h1 {
   letter-spacing: 15px;
   font-size: 300%;
@@ -19,7 +21,7 @@ a:hover {
 .nav-pills > li.active > a:focus,
 .nav-pillse > li.active > a:hover {
   color: #fff;
-  background-color: #346270;
+  background-color: #aeb002;
 }
 
 .nav-pills > li > a {
@@ -27,7 +29,7 @@ a:hover {
 }
 
 .nav-pills > li > a:hover {
-  background-color: #346270;
+  background-color: #aeb002;
 }
 
 .navbar-inverse {
