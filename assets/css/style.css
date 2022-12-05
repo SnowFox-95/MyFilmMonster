@@ -3,8 +3,10 @@ a:hover {
   color: #f0ad4e;
   text-decoration: none;
 }
-.navbar{
-    background-color:darkslateblue;
+.navbar {
+  background-color: #000;
+  /* darkslateblue - this is MyColorTheme. 
+  DefaultColor: #000 */
 }
 .header h1 {
   letter-spacing: 15px;
@@ -21,7 +23,9 @@ a:hover {
 .nav-pills > li.active > a:focus,
 .nav-pillse > li.active > a:hover {
   color: #fff;
-  background-color: #aeb002;
+  background-color: #346270;
+  /*#aeb002 this is MyColorTheme. 
+  DefaultColor: #346270 */
 }
 
 .nav-pills > li > a {
@@ -29,7 +33,9 @@ a:hover {
 }
 
 .nav-pills > li > a:hover {
-  background-color: #aeb002;
+  background-color: #346270;
+  /* #aeb002 this is MyColorTheme. 
+  DefaultColor: #346270 */
 }
 
 .navbar-inverse {
@@ -45,12 +51,41 @@ a:hover {
     text-align: center;
   }
 
-  .header h1{
+  .header h1 {
     letter-spacing: 5px;
     font-size: 280%;
   }
 
-  .header{
+  .header {
     text-align: center;
   }
+}
+
+.clear {
+  clear: both;
+  height: 63px;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  color: #666;
+  background-color: #222;
+  padding: 17px 0 18px 0;
+  border-top: 1px solid #000;
+}
+
+footer a {
+  color: #999;
+}
+
+footer a:hover {
+  color: #efefef;
 }
