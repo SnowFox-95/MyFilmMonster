@@ -75,6 +75,26 @@ body {
   height: 100%;
 }
 
+.films_block{
+  text-align: center;
+}
+
+.films_block img{
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
+  width: 100%;
+}
+
+.film_label{
+  padding: 2%;
+  margin-bottom: 4%;
+}
+
+.margin-8{
+  margin-top: 8%;
+}
+
 footer {
   color: #666;
   background-color: #222;
