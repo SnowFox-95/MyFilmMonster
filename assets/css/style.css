@@ -95,6 +95,10 @@ body {
   margin-top: 8%;
 }
 
+.panel{
+  border:none;
+}
+
 footer {
   color: #666;
   background-color: #222;
