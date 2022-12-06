@@ -42,6 +42,7 @@ a:hover {
 
 .navbar-inverse {
   padding: 1%;
+  border-radius: 0;
 }
 
 @media (max-width: 767px) {
