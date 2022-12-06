@@ -124,6 +124,10 @@ body {
     font-size: 14px;
 }
 
+.news_text{
+    font-size: 90%;
+}
+
 footer {
     color: #666;
     background-color: #222;
