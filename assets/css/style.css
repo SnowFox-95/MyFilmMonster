@@ -133,8 +133,21 @@ body {
   color: #8a6d3b;
   background-color: #f9f9f9;
 }
+
 .badge {
   background-color: #000;
+}
+
+.info-block {
+  font-size: 120%;
+}
+
+.info-block .badge {
+  font-size: 80%;
+}
+
+.info-block span {
+  margin-right: 3%;
 }
 
 footer {
