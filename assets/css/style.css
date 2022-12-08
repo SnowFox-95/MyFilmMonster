@@ -158,6 +158,10 @@ textarea.form-control {
   font-size: 120%;
 }
 
+.table tbody > tr > td.vert-align {
+  vertical-align: middle;
+}
+
 footer {
   color: #666;
   background-color: #222;
