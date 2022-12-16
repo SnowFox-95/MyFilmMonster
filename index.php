@@ -12,6 +12,8 @@ $balance = $addBalance1 + $addBalance2;
 $light = "green"; /*Переменная светофор = зеленый/красный*/
 if ($light == "green") {
     echo "Светофор зеленый, я перехожу дорогу";
+} else if($light=="yellow") {
+    echo "Сейчас светофор желтый";
 } else {
     echo "Жду когда загорится зеленый";
 }
