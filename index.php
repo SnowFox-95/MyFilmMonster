@@ -26,8 +26,11 @@ switch($light){
     case 'yellow':
         echo "Сейчас светофор желтый";
         break;
-    default:
+    case 'red':
         echo "Жду когда загорится зеленый";
+        break;
+    default:
+        echo "Светофор сломался, пойду искать другой пешеходный переход";
         break;
 }
 
