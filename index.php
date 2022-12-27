@@ -8,8 +8,12 @@ print_r($arr)."<br>"; /* вывод всех элементов*/
 
 echo count($arr)."<br>"; /*вывод количества элементов в массиве*/
 
-for ($i = 0; $i < count($arr); $i++) {
+/*for ($i = 0; $i < count($arr); $i++) {
     echo $arr[$i]."<br>";
+}*/
+
+foreach ($arr as $key => $value){
+    echo "Ключ к массиву ".$key." - Значение массива ".$value."<br>";
 }
 ?>
 
