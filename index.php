@@ -5,10 +5,15 @@ $i = 1;
     echo $i."<br>";
     $i++;
 }*/
-do{
+
+/*do{
     echo $i."<br>";
     $i++;
-} while ($i<=10);
+} while ($i<=10);*/
+
+for($i=0; $i<=10; $i++){
+    echo $i."<br>";
+}
 
 ?>
 
