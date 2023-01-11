@@ -228,6 +228,17 @@ hr {
     margin-right: 3%;
 }
 
+.description_film {
+    margin-bottom: 15%;
+}
+
+.description_film img {
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+}
+
 .footer {
     width: 100%;
     height: 100px;
