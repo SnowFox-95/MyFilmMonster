@@ -135,8 +135,12 @@ ul li {
     color: #e4ec04;
 }
 
+hr {
+    border: solid 1px #f3f3f3;
+}
+
 .site_content {
-    width: 880px;
+    width: 980px;
     overflow: hidden;
     margin: 20px auto 0 auto;
     background-color: #fff;
@@ -187,7 +191,7 @@ ul li {
 
 .content {
     text-align: left;
-    width: 620px;
+    width: 720px;
     padding: 0 0 0 5px;
     float: left;
 }
@@ -203,7 +207,10 @@ ul li {
 .films_block img {
     border-radius: 5px;
     border: solid 5px #dad7d5;
+}
 
+.posts_content {
+    font-size: 0.8em;
 }
 
 .footer {
