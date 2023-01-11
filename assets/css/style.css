@@ -239,6 +239,25 @@ hr {
     border: solid 5px #dad7d5;
 }
 
+.reviews {
+    margin-bottom: 4%;
+    font-size: 0.9em;
+}
+
+.reviews .review_name {
+    background-color: #7268ad;
+    color: #fff;
+    padding: 1%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.reviews .review_text {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
 .footer {
     width: 100%;
     height: 100px;
