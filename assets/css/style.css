@@ -475,4 +475,20 @@ td img {
     .button {
         float: none;
     }
+
+    /*rating page*/
+    table {
+        display: block;
+    }
+
+    th {
+        font-size: 75%;
+    }
+
+    td {
+        padding: 0;
+        margin: 0;
+        font-size: 95%;
+        text-align: left;
+    }
 }
