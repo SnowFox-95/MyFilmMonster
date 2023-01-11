@@ -384,7 +384,6 @@ td img {
 }
 
 /* CSS Mobile */
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .header {
         background-color: #257965;
@@ -404,6 +403,11 @@ td img {
     .menubar {
         width: 100%;
         height: 100%;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
     }
 
     .site_content {
@@ -430,11 +434,45 @@ td img {
     }
 
     .logo h1 {
-        font-size: normal 235% "century gothic", arial, sans-serif;
+        font: normal 235% "century gothic", arial, sans-serif;
     }
 
     .logo h2 {
-        font-size: normal 100% "century gothic", arial, sans-serif;
+        font: normal 100% "century gothic", arial, sans-serif;
         color: white;
+    }
+
+    .content h1,
+    h2 {
+        font: normal 110% "century gothic", arial;
+    }
+
+    .films_block img {
+        width: 43%;
+    }
+
+    .posts_content p {
+        line-height: 1.5em;
+        padding: 3%;
+        text-align: left;
+    }
+
+    .posts p {
+        font-size: 120%;
+    }
+
+    /* films page*/
+    .info_film {
+        float: none;
+        height: 100%;
+    }
+
+    .info_film img {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .button {
+        float: none;
     }
 }
