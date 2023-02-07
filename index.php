@@ -49,6 +49,8 @@ print_r($str2toarr);
 echo "</pre>";
 
 /*многомерные массивы*/
+
+/*
 $camera["market1"]["row1"][0] = "продукты";
 $camera["market1"]["row1"][1] = "сумка";
 $camera["market2"]["row2"][0] = "апельсин";
@@ -64,7 +66,31 @@ foreach ($camera as $key => $value) {
             echo $value3;
         }
     }
-}
+}*/
+
+/*способ №2 создания многомерного массива*/
+
+$camera = array(
+    "market1" => array(
+        "row1" => array(
+            "продукты", "сумка"
+        ),
+        "row2" => array(
+            "апельсин", "фотоаппарат", "телефон"
+        )
+    ),
+    "market2" => array(
+        "row1" => array(
+            "продукты", "сумка"
+        ),
+        "row2" => array(
+            "апельсин", "фотоаппарат", "телефон"
+        )
+    )
+);
+echo "<pre>";
+print_r($camera);
+echo "</pre>";
 ?>
 
 <!doctype html>
