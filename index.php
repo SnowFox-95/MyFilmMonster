@@ -31,13 +31,22 @@ $arr = array_unique($arr); /*удаление дубликатов*/
 
 //shuffle($arr); /*перемешивание значений в случ. порядке*/
 
+$arr2= array("кокос","арбуз");
+$newarr = array_merge($arr,$arr2); /*объединение 2 массивов в один*/
 
-
-foreach ($arr as $key => $value) {
+foreach ($newarr as $key => $value) {
     echo "Ключ к массиву " . $key . " - Значение массива " . $value . "<br>";
 }
 
 
+$str= implode(", ", $newarr); /*перевод массива в строку*/
+echo "<br>".$str;
+echo "<br>";
+$str2 = "продукты, бутылка с водой, кокос";
+$str2toarr = explode(", ",$str2);
+echo "<pre>"; /*тег для удобного вывода массива через print_r*/
+print_r($str2toarr);
+echo "</pre>";
 ?>
 
 <!doctype html>
