@@ -2,10 +2,18 @@
 //print_r($_GET);
 
 //echo $_GET['name'];
-print_r($_POST);
-//if (isset($_POST['name'])) {
-//    echo "Мое имя," . $_POST['name'];
-//}
+//print_r($_POST);
+
+if (isset($_POST['name'])) {
+    $nameFilter = htmlspecialchars($_POST['name'],ENT_QUOTES, 'UTF-8'); //простая защита от xss-атаки
+    echo "Мое имя," . $nameFilter;
+}
+
+//$user = "    uSeR   ";
+//echo trim($user); //удаление лишних пробелов
+//echo mb_strtolower(trim($user)); //приведение строки в строчный вариант + удаление пробелов
+
+
 ?>
 
 <!doctype html>
